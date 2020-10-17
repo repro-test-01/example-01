@@ -2,7 +2,7 @@ provider "aws" {
   region = "us-east-2"
 }
 
-resource "aws_s3_bucket" "example01" {
+resource "aws_s3_bucket" "example-01" {
   bucket = "example-01"
   versioning {
     enabled    = true
